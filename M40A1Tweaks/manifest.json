@@ -1,0 +1,17 @@
+{
+  "name": "M40A1 Tweaks",
+  "authors": [
+    "M'aiq"
+  ],
+  "guid": "maiq.m40a1tweaks",
+  "version": "1.0.0",
+  "require": "0.3.2",
+  "assets": {
+    "patcher": {
+      "hookgen.conf": "deli:monomod.hookgen"
+    },
+    "setup": {
+      "M40A1Tweaks.dll": "deli:assembly"
+    }
+  }
+}
