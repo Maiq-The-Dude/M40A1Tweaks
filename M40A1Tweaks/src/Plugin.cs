@@ -20,5 +20,10 @@ namespace M40A1Tweaks
 		{
 			Config.Reload();
 		}
+
+		private void OnDestroy()
+		{
+			_hooks?.Dispose();
+		}
 	}
 }
