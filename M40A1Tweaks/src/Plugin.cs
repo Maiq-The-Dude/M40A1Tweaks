@@ -18,11 +18,6 @@ namespace M40A1Tweaks
 
 		private void SceneManager_sceneLoaded(Scene scene, LoadSceneMode mode)
 		{
-			ReloadConfig();
-		}
-
-		public void ReloadConfig()
-		{
 			Config.Reload();
 		}
 	}
