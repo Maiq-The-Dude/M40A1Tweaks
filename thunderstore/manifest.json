@@ -1,0 +1,9 @@
+{
+    "name": "M40A1Tweaks",
+    "version_number": "1.1.0",
+    "dependencies": [
+        "nrgill28-HookGenPatcher_H3VR-1.2.3"
+    ],
+    "description": "Replaces the scope on the M40A1 with a rail mount.",
+    "website_url": "https://github.com/Maiq-The-Dude/M40A1Tweaks"
+}
