@@ -13,7 +13,7 @@ mkdir -p TEMP/M40A1Tweaks/plugins
 cp manifest.json TEMP/manifest.json
 cp icon.png TEMP/icon.png
 cp ../README.md TEMP/README.md
-cp ../M40A1Tweaks/M40A1Tweaks/bin/Release/net35/M40A1Tweaks.dll TEMP/M40A1Tweaks/plugins/M40A1Tweaks.dll
+cp ../src/M40A1Tweaks/bin/Release/net35/M40A1Tweaks.dll TEMP/M40A1Tweaks/plugins/M40A1Tweaks.dll
 
 # Modify the version number
 sed -i "s/{VERSION}/$VERSION/g" TEMP/manifest.json
